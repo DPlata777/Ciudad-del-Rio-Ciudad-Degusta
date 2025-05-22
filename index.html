@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa Gastronómico Ciudad del Río</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fuentes y estilos -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<header class="navbar">
+  <div class="navbar-logo">
+    <a href="index.html">🍽️ Ciudad del Río</a>
+  </div>
+
+  <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" class="hamburger">
+    <div class="bar top"></div>
+    <div class="bar middle"></div>
+    <div class="bar bottom"></div>
+  </label>
+
+
+  <nav class="navbar-links">
+    <a href="index.html">Mapa</a>
+    <a href="puestos.html">Puestos</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
+</header>
+
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <main class="contenedor-principal">
+    <!-- Buscador -->
+    <section class="buscador-container">
+      <input type="text" id="buscador" placeholder="Buscar restaurante por nombre..." />
+    </section>
+
+    <!-- Mapa -->
+    <section class="mapa-contenedor">
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <!-- Tooltip flotante -->
+  <div id="preview-tooltip" class="preview-tooltip" style="display: none;"></div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Proyecto Académico – Ciudad del Río | Deavid Plata, Jerónimo Duque, Samuel Aguirre y María Victoria Gallo – 2025</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="JS/restaurantes.js"></script>
+  <script src="JS/menu.js"></script>
+</body>
+</html>

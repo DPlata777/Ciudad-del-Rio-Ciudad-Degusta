@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detalle del Restaurante</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+</head>
+<body>
+
+  <!-- NAVBAR simple para navegación -->
+<header class="navbar">
+  <div class="navbar-logo">
+    <a href="index.html">🍽️ Ciudad del Río</a>
+  </div>
+
+  <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" class="hamburger">
+    <div class="bar top"></div>
+    <div class="bar middle"></div>
+    <div class="bar bottom"></div>
+  </label>
+
+  <nav class="navbar-links">
+    <a href="index.html">Mapa</a>
+    <a href="puestos.html">Puestos</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
+</header>
+
+
+  <!-- Contenido del restaurante -->
+  <main class="detalle-contenedor">
+    <div id="contenido"></div>
+    <p><a href="index.html" class="btn-principal">← Volver al mapa</a></p>
+  </main>
+
+  <!-- JS -->
+  <script src="JS/detalle.js"></script>
+  <script src="JS/menu.js"></script>
+</body>
+</html>
