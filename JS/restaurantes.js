@@ -32,10 +32,10 @@ const restaurantes = [
   { id: "officeBurguer", nombre: "Office Burguer", coords: [6.2247, -75.5737] },
   { id: "starbucks", nombre: "Starbucks", coords: [6.2245, -75.5745] },
   { id: "sushiLigth", nombre: "Sushi Ligth", coords: [6.2242, -75.5746] },
-  { id: "elCafeMamm", nombre: "El Café del MAMM", coords: [6.2239, -75.5743] },
+  { id: "elCafeMamm", nombre: "El Café del MAM", coords: [6.2239, -75.5743] },
   { id: "fireHouse", nombre: "Fire House", coords: [6.2249, -75.5749] },
-  { id: "pigasus", nombre: "Hay Pigasus", coords: [6.2253, -75.5741] },
-  { id: "parmessano", nombre: "Hay Parmessano", coords: [6.2255, -75.5743] },
+  { id: "pigasus", nombre: "Pigasus", coords: [6.2253, -75.5741] },
+  { id: "parmessano", nombre: "Parmessano", coords: [6.2255, -75.5743] },
   { id: "laChoripolleria", nombre: "La Choripolleria", coords: [6.2240, -75.5732] },
   { id: "elCorral", nombre: "El Corral", coords: [6.2251, -75.5736] },
   { id: "muy", nombre: "MUY", coords: [6.2238, -75.5738] }
