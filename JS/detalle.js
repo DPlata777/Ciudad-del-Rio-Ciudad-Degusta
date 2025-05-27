@@ -3,9 +3,10 @@
     crepesWaffles: {
       nombre: "Crepes & Waffles",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Restaurante de comida ligera y postres, conocido por sus crepes dulces y salados, waffles y helados artesanales. Ideal para almorzar o tomar onces en un ambiente tranquilo.",
+      descripcion: "Restaurante de comida ligera y postres, conocido por sus crepes dulces y salados, waffles y helados artesanales.",
       horario: { apertura: 12, cierre: 22 },
-      imagenes: ["IMG/crepes1.jpg"],
+      imagenes: ["IMG/crepes1.jpg", "IMG/crepes2.jpg"],
+      precio: "$$",
       menuLink: "https://www.crepesywaffles.com/menu/",
       platoRecomendado: {
         nombre: "Crepe de pollo al curry",
@@ -15,9 +16,10 @@
     montolivo: {
       nombre: "Montolivo",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Restaurante con una oferta mediterránea, especializado en platos italianos y pizzas artesanales.",
+      descripcion: "Restaurante mediterráneo especializado en platos italianos y pizzas artesanales.",
       horario: { apertura: 12, cierre: 23 },
       imagenes: ["IMG/montolivo1.jpg"],
+      precio: "$$$",
       menuLink: "https://montolivorestaurante.com/carta-menu/",
       platoRecomendado: {
         nombre: "Pizza Montolivo",
@@ -30,6 +32,7 @@
       descripcion: "Hamburguesas gourmet con ingredientes frescos y salsas caseras.",
       horario: { apertura: 11, cierre: 22 },
       imagenes: ["IMG/officeburguer1.jpg"],
+      precio: "$$",
       menuLink: "https://officeburger.com/carta/",
       platoRecomendado: {
         nombre: "Hamburguesa Office",
@@ -39,9 +42,10 @@
     starbucks: {
       nombre: "Starbucks",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Cadena internacional de café con variedad de bebidas calientes y frías, además de snacks y postres.",
+      descripcion: "Café con variedad de bebidas calientes, frías, snacks y postres.",
       horario: { apertura: 7, cierre: 21 },
       imagenes: ["IMG/starbucks1.jpg"],
+      precio: "$$$",
       menuLink: "https://www.starbucks.com.co/carta",
       platoRecomendado: {
         nombre: "Caramel Macchiato",
@@ -51,9 +55,10 @@
     sushiLigth: {
       nombre: "Sushi Ligth",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Restaurante especializado en sushi fresco con opciones saludables y creativas.",
+      descripcion: "Sushi fresco con opciones saludables y creativas.",
       horario: { apertura: 12, cierre: 22 },
       imagenes: ["IMG/sushilight1.jpg"],
+      precio: "$$$",
       menuLink: "https://sushilight.com/menu-digital/carta-sushi-sushi-light/",
       platoRecomendado: {
         nombre: "Roll Light",
@@ -61,23 +66,25 @@
       }
     },
     elCafeMamm: {
-      nombre: "El Café del MAM",
+      nombre: "El Café del MAMM",
       direccion: "Museo de Arte Moderno de Medellín, Ciudad del Río",
       descripcion: "Café con ambiente cultural, ideal para disfrutar un buen café y postres.",
       horario: { apertura: 9, cierre: 19 },
       imagenes: ["IMG/cafemamm1.jpg"],
+      precio: "$$",
       menuLink: null,
       platoRecomendado: {
         nombre: "Café de especialidad",
-        descripcion: "Café de origen colombiano con métodos de preparación artesanal."
+        descripcion: "Café colombiano con métodos de preparación artesanal."
       }
     },
     fireHouse: {
       nombre: "Fire House",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Restaurante con parrilla y especialidades en carnes ahumadas y hamburguesas.",
+      descripcion: "Parrilla especializada en carnes ahumadas y hamburguesas.",
       horario: { apertura: 12, cierre: 23 },
       imagenes: ["IMG/firehouse1.jpg"],
+      precio: "$$$",
       menuLink: "https://www.firehouse.com.co/menu",
       platoRecomendado: {
         nombre: "Costillas BBQ",
@@ -85,11 +92,12 @@
       }
     },
     pigasus: {
-      nombre: "Pigasus",
+      nombre: "Hay Pigasus",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Tienda y restaurante con productos gourmet y platos de inspiración internacional.",
+      descripcion: "Tienda y restaurante con productos gourmet e inspiración internacional.",
       horario: { apertura: 10, cierre: 20 },
       imagenes: ["IMG/pigasus1.jpg"],
+      precio: "$$",
       menuLink: "https://pigasus.com.co/tienda-pigasus/",
       platoRecomendado: {
         nombre: "Tabla de quesos",
@@ -97,11 +105,12 @@
       }
     },
     parmessano: {
-      nombre: "Parmessano",
+      nombre: "Hay Parmessano",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Especialistas en pastas y platos italianos con ingredientes frescos y artesanales.",
+      descripcion: "Especialistas en pastas italianas con ingredientes frescos.",
       horario: { apertura: 11, cierre: 22 },
       imagenes: ["IMG/parmessano1.jpg"],
+      precio: "$$$",
       menuLink: "https://parmessano.com.co/menu/",
       platoRecomendado: {
         nombre: "Fettuccine Alfredo",
@@ -111,9 +120,10 @@
     laChoripolleria: {
       nombre: "La Choripolleria",
       direccion: "Cerca del Subway, Ciudad del Río, Medellín",
-      descripcion: "Restaurante especializado en choripanes y pollos a la parrilla con sabores caseros.",
+      descripcion: "Choripanes y pollos a la parrilla con sabores caseros.",
       horario: { apertura: 11, cierre: 21 },
       imagenes: ["IMG/choripolleria1.jpg"],
+      precio: "$",
       menuLink: "https://drive.google.com/file/d/1xU3B6fWtodZQpReOi4asItUGmYCTmlZ4/view",
       platoRecomendado: {
         nombre: "Choripán tradicional",
@@ -123,9 +133,10 @@
     elCorral: {
       nombre: "El Corral",
       direccion: "Ciudad del Río, Medellín",
-      descripcion: "Cadena de hamburgueserías reconocida por sus hamburguesas clásicas y especiales.",
+      descripcion: "Cadena de hamburgueserías con ingredientes frescos y ambiente familiar.",
       horario: { apertura: 11, cierre: 22 },
       imagenes: ["IMG/elcorral1.jpg"],
+      precio: "$$",
       menuLink: "https://www.elcorral.com/pdf/EC_Menu_Digital_General.pdf",
       platoRecomendado: {
         nombre: "Hamburguesa El Corral",
@@ -138,6 +149,7 @@
       descripcion: "Restaurante con propuesta contemporánea y platos creativos.",
       horario: { apertura: 12, cierre: 22 },
       imagenes: ["IMG/muy1.jpg"],
+      precio: "$$",
       menuLink: "https://www.restaurantemuy.com/menu",
       platoRecomendado: {
         nombre: "Pulpo a la parrilla",
@@ -169,6 +181,7 @@
   if (info) {
     contenedor.innerHTML = `
       <h1>${info.nombre}</h1>
+      <p><strong>Precio:</strong> <span class="precio-nivel">${info.precio || 'No disponible'}</span></p>
       <p><strong>Dirección:</strong> ${info.direccion}</p>
       <p><strong>Horario:</strong> ${info.horario ? `${info.horario.apertura}:00 - ${info.horario.cierre}:00` : 'Horario no disponible'} - ${verificarEstado(info.horario)}</p>
       <p><strong>Descripción:</strong> ${info.descripcion}</p>
@@ -185,4 +198,3 @@
     contenedor.innerHTML = "<p>Restaurante no encontrado.</p>";
   }
 })();
-
