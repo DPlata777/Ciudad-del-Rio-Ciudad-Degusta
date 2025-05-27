@@ -392,3 +392,18 @@ body {
     transform: translateY(0);
   }
 }
+
+.precio-nivel {
+  font-size: 16px;
+  color: #333;
+  padding: 4px 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 6px 0;
+  font-weight: 600;
+}
+
+.precio-nivel::before {
+  content: "💰 ";
+}
