@@ -61,7 +61,7 @@
       }
     },
     elCafeMamm: {
-      nombre: "El Café del MAMM",
+      nombre: "El Café del MAM",
       direccion: "Museo de Arte Moderno de Medellín, Ciudad del Río",
       descripcion: "Café con ambiente cultural, ideal para disfrutar un buen café y postres.",
       horario: { apertura: 9, cierre: 19 },
@@ -85,7 +85,7 @@
       }
     },
     pigasus: {
-      nombre: "Hay Pigasus",
+      nombre: "Pigasus",
       direccion: "Ciudad del Río, Medellín",
       descripcion: "Tienda y restaurante con productos gourmet y platos de inspiración internacional.",
       horario: { apertura: 10, cierre: 20 },
@@ -97,7 +97,7 @@
       }
     },
     parmessano: {
-      nombre: "Hay Parmessano",
+      nombre: "Parmessano",
       direccion: "Ciudad del Río, Medellín",
       descripcion: "Especialistas en pastas y platos italianos con ingredientes frescos y artesanales.",
       horario: { apertura: 11, cierre: 22 },
