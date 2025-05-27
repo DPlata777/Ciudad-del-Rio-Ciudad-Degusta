@@ -92,7 +92,7 @@
       }
     },
     pigasus: {
-      nombre: "Hay Pigasus",
+      nombre: "Pigasus",
       direccion: "Ciudad del Río, Medellín",
       descripcion: "Tienda y restaurante con productos gourmet e inspiración internacional.",
       horario: { apertura: 10, cierre: 20 },
@@ -105,7 +105,7 @@
       }
     },
     parmessano: {
-      nombre: "Hay Parmessano",
+      nombre: "Parmessano",
       direccion: "Ciudad del Río, Medellín",
       descripcion: "Especialistas en pastas italianas con ingredientes frescos.",
       horario: { apertura: 11, cierre: 22 },
