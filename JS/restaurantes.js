@@ -16,10 +16,10 @@ const dataRestaurantes = {
   officeBurguer: { nombre: "Office Burguer", imagenes: ["IMG/officeburguer1.jpg"] },
   starbucks: { nombre: "Starbucks", imagenes: ["IMG/starbucks1.jpg"] },
   sushiLigth: { nombre: "Sushi Ligth", imagenes: ["IMG/sushilight1.jpg"] },
-  elCafeMamm: { nombre: "El Café del MAMM", imagenes: ["IMG/cafemamm1.jpg"] },
+  elCafeMamm: { nombre: "El Café del MAM", imagenes: ["IMG/cafemamm1.jpg"] },
   fireHouse: { nombre: "Fire House", imagenes: ["IMG/firehouse1.jpg"] },
-  pigasus: { nombre: "Hay Pigasus", imagenes: ["IMG/pigasus1.jpg"] },
-  parmessano: { nombre: "Hay Parmessano", imagenes: ["IMG/parmessano1.jpg"] },
+  pigasus: { nombre: "Pigasus", imagenes: ["IMG/pigasus1.jpg"] },
+  parmessano: { nombre: "Parmessano", imagenes: ["IMG/parmessano1.jpg"] },
   laChoripolleria: { nombre: "La Choripolleria", imagenes: ["IMG/choripolleria1.jpg"] },
   elCorral: { nombre: "El Corral", imagenes: ["IMG/elcorral1.jpg"] },
   muy: { nombre: "MUY", imagenes: ["IMG/muy1.jpg"] }
