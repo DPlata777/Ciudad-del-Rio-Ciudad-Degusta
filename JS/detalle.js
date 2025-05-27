@@ -66,7 +66,7 @@
       }
     },
     elCafeMamm: {
-      nombre: "El Café del MAMM",
+      nombre: "El Café del MAM",
       direccion: "Museo de Arte Moderno de Medellín, Ciudad del Río",
       descripcion: "Café con ambiente cultural, ideal para disfrutar un buen café y postres.",
       horario: { apertura: 9, cierre: 19 },
